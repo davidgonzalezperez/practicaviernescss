@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+section {
+  width: 99%;
+  height: 60%px;
+  background: grey;
+  display: flex;
+}
+
+div {
+  color: white;
+  background: grey;
+  flex: 1;
+  margin-right: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section, div {
+  padding: 10px;
+}
+form {
+  display: table;
+  margin: 0 auto;
+}
+
+form div {
+  display: table;
+}
+
+form label, form input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+form label {
+  width: 200px;
+  padding-right: 1%;
+  text-align:left;
+}
+
+form input {
+  width: 300px;
+}
+divv#sid{
+	display: inline-block;
+}
+p{
+	margin-left: 120px;
+	text-align:center;
+}
+label{
+	margin-left:200px;
+}
